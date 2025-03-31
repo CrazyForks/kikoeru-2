@@ -14,7 +14,8 @@ body:
         你必须勾选以下所有内容，否则你的issue可能会被直接关闭。或者你可以去 [讨论区](https://github.com/vscodev/kikoeru/discussions) 。
       options:
         - label: |
-            我确定使用的是 `Kikoeru` 的最新版本。
+            我已经阅读了 [文档](https://github.com/vscodev/kikoeru/wiki) 和 [提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md) 。
+          required: true
         - label: |
             我确定没有重复的issue或讨论。
         - label: |
@@ -29,6 +30,7 @@ body:
       placeholder: "0.1.0"
     validations:
       required: true
+
   - type: input
     id: driver
     attributes:
@@ -38,12 +40,14 @@ body:
       placeholder: "OneDrive"
     validations:
       required: true
+
   - type: textarea
     id: bug-description
     attributes:
       label: 问题描述
     validations:
       required: true
+
   - type: textarea
     id: logs
     attributes:
