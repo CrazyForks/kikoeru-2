@@ -4,7 +4,7 @@
 
 一个自托管的DLsite音声作品整理和媒体播放软件，为你提供极致的音声视听体验。
 
-![screenshot](screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/vscodev/kikoeru@main/screenshot.png)
 
 ## 功能
 
